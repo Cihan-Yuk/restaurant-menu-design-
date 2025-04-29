@@ -1,0 +1,85 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık */
+header {
+    background-color: #d72638;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+haeder h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #d72638;
+}
+
+/* Ana içerik */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.urunler h2 {
+    margin-bottom: 20px;
+    color: #d72638;
+}
+
+/* Tablo Stili */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d72638;
+    color: white;
+}
+
+tr:hover td {
+    background-color: #df8a8a;
+}
+
+/* Footer */
+footer {
+    background-color: #d72638;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
