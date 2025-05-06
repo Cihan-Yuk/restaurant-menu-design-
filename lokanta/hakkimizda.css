@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.banner {
+    background: url(foto.jpg) no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.intro {
+    background-color: #333;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro h3 {
+    font-size: 24px;
+    margin: 30px 0 10px;
+    color: #ffffff;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.intro ul {
+    list-style: square;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.intro ul li {
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
