@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contract Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head> 
+<body>
+  <div class="container">
+    <header>
+      <div class="card">
+        <p>Accepted</p>
+        <h2>2,340</h2>
+      </div>
+      <div class="card">
+        <p>In Contract</p>
+        <h2>1,782</h2>
+      </div>
+      <div class="card">
+        <p>In Approval</p>
+        <h2>1,596</h2>
+      </div>
+    </header>
+
+    <main>
+      <section class="left">
+        <h3>Contract by Stages</h3>
+        <div class="bar-chart">
+          <div><span style="height: 80%"></span><p>Active</p></div>
+          <div><span style="height: 60%"></span><p>Draft</p></div>
+          <div><span style="height: 40%"></span><p>Expired</p></div>
+          <div><span style="height: 20%"></span><p>Cancelled</p></div>
+        </div>
+      </section>
+
+      <section class="center">
+        <h3>Contract Expiring</h3>
+        <div class="donut-chart">
+          <div class="donut"></div>
+          <ul class="legend">
+            <li><span class="dot orange"></span> Within 60 days</li>
+            <li><span class="dot teal"></span> Within 30 days</li>
+            <li><span class="dot gray"></span> Expired</li>
+          </ul>
+        </div>
+
+        <h3>My Contracts</h3>
+        <table class="contracts">
+          <thead>
+            <tr><th>Serial #</th><th>Name</th><th>Value</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CNTR000839F</td>
+              <td>Horizon Tech</td>
+              <td>$48,292</td>
+              <td><span class="badge active">Active</span></td>
+            </tr>
+            <tr>
+              <td>CNTR000839F</td>
+              <td>Flowtech Labs</td>
+              <td>$20,550</td>
+              <td><span class="badge draft">Draft</span></td>
+            </tr>
+            <tr>
+              <td>CNTR000839F</td>
+              <td>ServerTech INC.</td>
+              <td>$72,402</td>
+              <td><span class="badge review">In Review</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="right">
+        <h3>Contract by Type</h3>
+        <div class="progress-container">
+          <p>NDA <span>70%</span></p>
+          <div class="progress-bar"><div style="width: 70%"></div></div>
+
+          <p>Insurance <span>25%</span></p>
+          <div class="progress-bar"><div style="width: 25%; background: #00bcd4;"></div></div>
+
+          <p>Lease <span>50%</span></p>
+          <div class="progress-bar"><div style="width: 50%; background: #ffc107;"></div></div>
+
+          <p>Maintenance <span>65%</span></p>
+          <div class="progress-bar"><div style="width: 65%; background: #ff5722;"></div></div>
+        </div>
+
+        <h3>Average Cycle Time</h3>
+        <div class="cycle-time">
+          <div><strong>25</strong><span>NDA</span></div>
+          <div><strong>45</strong><span>Insurance</span></div>
+          <div><strong>18</strong><span>Lease</span></div>
+          <div><strong>12</strong><span>Purchase</span></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
